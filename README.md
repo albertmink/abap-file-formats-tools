@@ -2,6 +2,8 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP/abap-file-formats-tools)](https://api.reuse.software/info/github.com/SAP/abap-file-formats-tools)
 
 ## Description
+Latest build: [z_generate_aff_folder.prog.abap](https://raw.githubusercontent.com/minka/abap-file-formats-tools/main/ci/z_generate_aff_folder.prog.abap)
+
 ABAP file formats rely heavily on JSON Schema that are generated out of ABAP types.
 This repository provides the tooling to generate such JSON Schema.
 
