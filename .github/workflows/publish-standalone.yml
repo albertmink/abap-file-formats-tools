@@ -23,3 +23,12 @@ jobs:
       with:
         name: z_generate_aff_folder.prog.abap
         path: ci/z_generate_aff_folder.prog.abap
+        if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to `warn`
+    - run: mkdir -p path/to/artifact
+
+    - run: echo hello > path/to/artifact/world.txt
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: my-artifact
+        path: path/to/artifact/world.txt
